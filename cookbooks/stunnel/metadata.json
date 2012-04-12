@@ -1,0 +1,29 @@
+{
+    "recipes": {
+    },
+    "attributes": {
+    },
+    "conflicting": {
+    },
+    "dependencies": {
+    },
+    "providing": {
+    },
+    "maintainer": "Greg Albrecht",
+    "replacing": {
+    },
+    "platforms": {
+    },
+    "license": "All rights reserved",
+    "version": "1.0.0",
+    "maintainer_email": "gba@gregalbrecht.com",
+    "groupings": {
+    },
+    "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES:\n\n= USAGE:\n\n",
+    "recommendations": {
+    },
+    "name": "stunnel",
+    "description": "Installs/Configures stunnel and creates Self-Signed SSL Cert.",
+    "suggestions": {
+    }
+  }
