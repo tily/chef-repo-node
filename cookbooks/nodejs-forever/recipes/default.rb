@@ -6,3 +6,9 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+include_recipe "nodejs"
+include_recipe "npm"
+
+npm_package "forever" do
+  action :install
+end
