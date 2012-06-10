@@ -9,7 +9,18 @@ This is a repository of chef that is aimed at node.js production environment, pl
  * forever (https://github.com/nodejitsu/forever)
  * basic node.js webapp deployment
 
+TODO
+====
+
+ * redis
+ * mongodb
+
 SEE ALSO
 ========
 
 See https://github.com/opscode/chef-repo/blob/master/README.md for chef-repo document.
+
+Other references:
+ * forever init script (<http://www.exratione.com/2011/07/running-a-nodejs-server-as-a-service-using-forever.php>)
+ * recipe[node_server], recipe[node_npm] (<https://github.com/digitalbutter/cookbook-node>)
+ * recipe[npm_package] (knife site install npm, <https://github.com/balbeko/chef-npm>)
