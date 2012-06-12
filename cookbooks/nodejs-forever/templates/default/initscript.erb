@@ -38,7 +38,7 @@ node=node
 forever=forever
 sed=sed
  
-export PATH=$PATH:<%= node[:nodejs][:dir] %>
+export PATH=$PATH:<%= File.join(node[:nodejs][:dir], 'bin') %>
  
 start() {
   echo "Starting $NAME node instance: "
@@ -55,7 +55,7 @@ start() {
     # Launch the application
     daemon --user=root \
       $forever start -p $forever_dir --pidfile $pidfile -l $logfile \
-      -a -d $SCRIPT_DIR $SCRIPT_FILE
+      -a -d $SCRIPT_DIR$SCRIPT_FILE
     RETVAL=$?
   else
     echo "Instance already running"
